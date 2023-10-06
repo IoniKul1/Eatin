@@ -1,0 +1,338 @@
+
+
+
+.page__content
+{
+	padding: 10px;
+}
+
+.RestaurantLogo
+{
+	background-position: center center;
+	background-size: auto 50%;
+	height: 200px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.bgItem
+{
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center center;
+}
+
+.MargTop20
+{
+	margin-top: 20px;
+}
+
+.BigImage
+{
+	width: 100%;
+	height: 300px;
+	margin-top: 100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% auto;
+}
+
+.page__content h2
+{
+	line-height: 30px;
+}
+
+.list-item__thumbnail
+{
+	/*width: 100px;
+	height: 80px;*/
+}
+
+.itemDetailTitle
+{
+    max-width: 46%;
+    overflow: hidden;
+    text-overflow: ellipsis;	
+}
+
+
+.txtCantidad
+{
+    width: 50px;
+    line-height: 40px;
+    /*top: -20px;*/
+    text-align: center;	
+	color: black!important;
+}
+
+.txtCantidadEdit
+{
+    width: 50px;
+    line-height: 40px;
+    top: -20px;
+    text-align: center;	
+	color: black!important;
+}
+
+
+.h1itemDetailTitle
+{
+	width: 85%;
+	font-weight: 400;
+	font-size: 35px;
+}
+
+.h3ItemPrice
+{
+    text-align: right;	
+}
+
+
+.txtCantidad .text-input
+{
+    color: black!important;
+    opacity: 1;
+    font-weight: 800;
+    text-align: center;	
+}
+
+.txtCantidadEdit .text-input
+{
+    color: black!important;
+    opacity: 1;
+    font-weight: 800;
+    text-align: center;	
+}
+
+
+.tabbar__label
+{
+	font-size: 20px!important;
+}
+
+
+.FauxHidden
+{
+	opacity: 0;
+}
+
+
+.divGoToPedidoContainer
+{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	padding: 10px;
+	width: 95%;
+	background-color: white;
+}
+
+
+
+
+/* design fixes */
+.button--large
+{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    box-shadow: 0px 5px 20px -2px rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+
+.button--large:active
+{
+    box-shadow: inset 0px 5px 20px -2px rgba(0,0,0,0.1);
+}
+
+
+.page__content
+{
+	padding: 20px;
+}
+
+
+ons-input, ons-radio, ons-checkbox, ons-search-input
+{
+	margin: 10px;
+}
+
+.card
+{
+	box-shadow: 0px 5px 15px -3px rgba(0,0,0,0.2)!important;
+}
+
+.intro
+{
+	padding: 15px;
+	color: gray;
+}
+
+
+.h2TableName
+{
+	font-size: 26px;
+    text-align: center;
+    color: gray;	
+}
+
+.HaciendoPedidoPage
+{
+	background-color: white!important;
+}
+
+.PageBgWhite .page__background
+{
+	background-color: white!important;
+}
+
+
+.lblPedidoNumero
+{
+	text-align: center;
+}
+
+.zmdi-menu
+{
+	display: none!important;
+}
+
+.page__content h1
+{
+	text-align: left;
+}
+
+
+.button--large
+{
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.5), inset 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.button--large:active
+{
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.5), inset 0px 2px 14px rgba(0,0,0,0.2);
+}
+
+
+.listMiPedidoEnCurso
+{
+	pointer-events: none;
+	filter: grayscale;
+}
+
+.EatinLogo
+{
+	background-image: url(../imgs/LogoEatin3.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 80%;
+	height: 80px;
+	display: none;
+}
+
+.h3SumTotal
+{
+	font-weight: bold;
+	text-align: right;
+}
+
+.PointerEventsNone
+{
+	pointer-events: none;
+}
+
+.Padlet1
+{
+	margin-top: 10px;
+	padding: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    min-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    background-color: white;	
+}
+
+.Padlet2
+{
+	margin-top: 10px;
+	padding: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+    background-color: white;	
+}
+
+
+
+.h1Welcome
+{
+	text-align: center!important;
+}
+
+
+.page__background
+{
+	background-image: url(../imgs/eatinbg003.png);
+}
+
+
+.list-item__thumbnail
+{
+	width: 80px;
+	height: 60px;
+}
+
+.list-item--material__thumbnail
+{
+	width: 40px!important;
+	height: 30px!important;
+}
+
+
+.listMiPedidoEnCurso .liListItem div .editCantidad .decreaseCantidadEdit
+{
+	display: none;
+}
+
+.listMiPedidoEnCurso .liListItem div .editCantidad .increaseCantidadEdit
+{
+	display: none;
+}
+
+
+
+.BlendMultiply .page__content
+{
+	mix-blend-mode: multiply;
+}
+
+
+.Pad10
+{
+	padding: 10px;
+}
+
+.Pad15
+{
+	padding: 15px;
+}
+
+.Pad20
+{
+	padding: 20px;
+}
+
+
+.btnLoginWithFB
+{
+	background-color: rgb(45,136,255)!important;
+}
+
+
+
+
